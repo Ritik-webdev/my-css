@@ -1,0 +1,214 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body {
+	background-color: #cce0ff;
+}
+.page { 
+     display: flex;
+	 justify-content: space-between;
+}
+.page1 {
+	height: 540px;
+	width: 354px;
+	background-color: #85b7ff;
+	margin-left: 400px;
+	margin-top: 80px;
+	border-radius: 40px;
+	box-shadow: 1px 5px 20px;
+}
+.heading {
+	color: white;
+	font-size: 25px;
+	font-weight: bolder;
+	font-family: sans-serif;
+	margin-top: 30px;
+	margin-left: 110px;
+}
+.username {
+	margin-top: 50px;
+	margin-left: 50px;
+}
+.mobilenum {
+	margin-top: 20px;
+	margin-left: 50px;
+}
+.box {
+	height: 55px;
+	width: 250px;
+	border: none;
+	background-color: #cce0ff;
+	border-radius: 10px;
+	padding-left: 20px;
+	font-weight: light;
+	font-family: sans-serif;
+}
+.password {
+	margin-top: 20px;
+	margin-left: 50px;
+}
+.confrmpassword {
+	margin-top: 20px;
+	margin-left: 50px;
+}
+.btn {
+	margin-top: 20px;
+	margin-left: 50px;
+}
+.btn1 {
+	height: 45px;
+	width: 250px;
+	border: none;
+	background-color: #1E40AF ;
+	border-radius: 5px;
+	font-weight: bolder;
+	color: white;
+	font-size: 20px;
+	font-family: sans-serif;
+}
+.circle {
+	height: 729px;
+	width: 725px;
+	background-color: #85b7ff;
+	border-top-left-radius: 600px;
+	border-bottom-left-radius: 600px;
+	box-shadow: 1px 4px 2px grey;
+}	
+	
+.circle1 {
+	height: 729px;
+	width: 525px;
+	background-color: #2563EB;
+	border-top-left-radius: 600px;
+	border-bottom-left-radius: 600px;
+	margin-left: 130px;
+}	
+.circle2 {
+	height: 729px;
+	width: 430px;
+	background-color: #1E40AF;
+	border-top-left-radius: 600px;
+	border-bottom-left-radius: 600px;
+	margin-left: 165px;
+	display: flex;
+}
+.img {
+	position: absolute;
+	height: 230px;
+	width: 350px;
+	background-image: url('flower.jpg');
+	background-size: cover;
+	mix-blend-mode: multiply;
+	opacity: 1;
+	margin-top: 200px;
+}	
+.ring {
+	position: absolute;
+    top: -50px;
+    left: 400px;
+    width: 80px;
+    height: 80px;
+    background: transparent;
+	outline: 10px solid #85b7ff;
+	border-radius: 100%;
+}
+.ring1 {
+	position: absolute;
+    top: 50px;
+    left: 100px;
+    width: 100px;
+    height: 100px;
+    background: transparent;
+	outline: 10px solid #85b7ff;
+	border-radius: 100%;
+}
+.ring2 {
+	position: absolute;
+    top: -60px;
+    left: 280px;
+    width: 80px;
+    height: 80px;
+    background: #85b7ff;
+	border-radius: 100%;
+}
+.ring3 {
+	position: absolute;
+    top: 260px;
+    left: 180px;
+    width: 60px;
+    height: 60px;
+    background: #85b7ff;
+	border-radius: 100%;
+}
+.ring4 {
+	position: absolute;
+    top: -45px;
+    left: -45px;
+    width: 120px;
+    height: 120px;
+    background: transparent;
+	outline: 10px solid #2563EB;
+	border-radius: 100%;
+}
+.ring5 {
+	position: absolute;
+    top: 400px;
+    left: 100px;
+    width: 100px;
+    height: 100px;
+    background: transparent;
+	outline: 10px solid #1E40AF;
+	border-radius: 100%;
+}
+.ring8 {
+	position: absolute;
+    top: 70px;
+    left: 390px;
+    width: 50px;
+    height: 50px;
+	outline: 8px solid #2563EB;
+    background: transparent;
+	border-radius: 100%;
+}
+.ring9 {
+	position: absolute;
+    top: 575px;
+    left: -60px;
+    width: 150px;
+    height: 150px;
+	outline: 8px solid #2563EB;
+    background: transparent;
+	border-radius: 100%;
+}
+.ring10 {
+	position: absolute;
+    top: 200px;
+    left: 810px;
+    width: 60px;
+    height: 60px;
+    background: #2563EB;
+	border-radius: 100%;
+}
+.ring11 {
+	position: absolute;
+    top: 245px;
+    left: 920px;
+    width: 70px;
+    height: 70px;
+	outline: 8px solid white;
+    background: transparent;
+	border-radius: 100%;
+	mix-blend-mode: overlay;
+}
+.end {
+	margin-top: 50px;
+	margin-left: 80px;
+	font-size: 14px;
+	font-family: sans-serif;
+	font-weight: bolder;
+}
+.up {
+	color: orange;
+}
